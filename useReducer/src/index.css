@@ -28,11 +28,34 @@ button {
   margin: 5px;
 }
 
+.main-div {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+}
+
+.number-tasks {
+  user-select: none;
+  pointer-events: none;
+}
+
+.outer-box {
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer-box:first-child {
+  color: red;
+}
+
 p {
   text-align: center;
-  padding: 5px;
-  background-color: aliceblue;
+  background-color: rgb(233, 233, 233);
   color: black;
   font-size: 20px;
+  border-radius: 10px;
+  width: 5em;
 }
 
